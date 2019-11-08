@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0417FB5323757D7E00B22435 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417FB5223757D7E00B22435 /* Message.swift */; };
 		04858EB8237576A500B3A9A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04858EB7237576A500B3A9A3 /* AppDelegate.swift */; };
 		04858EBA237576A500B3A9A3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04858EB9237576A500B3A9A3 /* GameScene.sks */; };
 		04858EBC237576A500B3A9A3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04858EBB237576A500B3A9A3 /* Actions.sks */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0417FB5223757D7E00B22435 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		04858EB4237576A500B3A9A3 /* GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04858EB7237576A500B3A9A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04858EB9237576A500B3A9A3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0417FB562375866100B22435 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0417FB5223757D7E00B22435 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		04858EAB237576A500B3A9A3 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 		04858EB6237576A500B3A9A3 /* GameOfLife */ = {
 			isa = PBXGroup;
 			children = (
+				0417FB562375866100B22435 /* Models */,
 				04858EB7237576A500B3A9A3 /* AppDelegate.swift */,
 				04858EB9237576A500B3A9A3 /* GameScene.sks */,
 				04858EBB237576A500B3A9A3 /* Actions.sks */,
@@ -134,7 +145,6 @@
 				EA392362981C47BBBB560F63 /* Pods-GameOfLifeTests.debug.xcconfig */,
 				248BC305A5E0F9BC6B6DA5A0 /* Pods-GameOfLifeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -309,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04858EBE237576A500B3A9A3 /* GameScene.swift in Sources */,
+				0417FB5323757D7E00B22435 /* Message.swift in Sources */,
 				04858EC0237576A500B3A9A3 /* GameViewController.swift in Sources */,
 				04858EB8237576A500B3A9A3 /* AppDelegate.swift in Sources */,
 			);
