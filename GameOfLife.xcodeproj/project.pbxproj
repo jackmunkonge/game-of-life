@@ -105,10 +105,10 @@
 		04858EB6237576A500B3A9A3 /* GameOfLife */ = {
 			isa = PBXGroup;
 			children = (
+				04858EBB237576A500B3A9A3 /* Actions.sks */,
+				04858EB9237576A500B3A9A3 /* GameScene.sks */,
 				0417FB562375866100B22435 /* Models */,
 				04858EB7237576A500B3A9A3 /* AppDelegate.swift */,
-				04858EB9237576A500B3A9A3 /* GameScene.sks */,
-				04858EBB237576A500B3A9A3 /* Actions.sks */,
 				04858EBD237576A500B3A9A3 /* GameScene.swift */,
 				04858EBF237576A500B3A9A3 /* GameViewController.swift */,
 				04858EC1237576A500B3A9A3 /* Main.storyboard */,
