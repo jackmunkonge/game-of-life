@@ -18,6 +18,7 @@
 		04858EC8237576A600B3A9A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04858EC6237576A600B3A9A3 /* LaunchScreen.storyboard */; };
 		04858ED3237576A600B3A9A3 /* GameOfLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04858ED2237576A600B3A9A3 /* GameOfLifeTests.swift */; };
 		049B6E99237596B9002BC965 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B6E98237596B9002BC965 /* Player.swift */; };
+		049B6E9F2375A754002BC965 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B6E9E2375A754002BC965 /* Grid.swift */; };
 		A75552447BF22672F57299B1 /* Pods_GameOfLifeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE508542412F097030514D29 /* Pods_GameOfLifeTests.framework */; };
 		F3586D262D6F73D1E8CC3AC6 /* Pods_GameOfLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43965A8E738AC692CBA8A31 /* Pods_GameOfLife.framework */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		04858ED2237576A600B3A9A3 /* GameOfLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeTests.swift; sourceTree = "<group>"; };
 		04858ED4237576A600B3A9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049B6E98237596B9002BC965 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		049B6E9E2375A754002BC965 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		248BC305A5E0F9BC6B6DA5A0 /* Pods-GameOfLifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfLifeTests.release.xcconfig"; path = "Target Support Files/Pods-GameOfLifeTests/Pods-GameOfLifeTests.release.xcconfig"; sourceTree = "<group>"; };
 		479CDE181D2CCD72245F2A59 /* Pods-GameOfLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfLife.debug.xcconfig"; path = "Target Support Files/Pods-GameOfLife/Pods-GameOfLife.debug.xcconfig"; sourceTree = "<group>"; };
 		A5BA781ACC7A6EDF1E56B9CE /* Pods-GameOfLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfLife.release.xcconfig"; path = "Target Support Files/Pods-GameOfLife/Pods-GameOfLife.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		04858EB6237576A500B3A9A3 /* GameOfLife */ = {
 			isa = PBXGroup;
 			children = (
+				04858EC9237576A600B3A9A3 /* Info.plist */,
 				049B6E9A237596D9002BC965 /* Scenes */,
 				0417FB562375866100B22435 /* Models */,
 				04858EB7237576A500B3A9A3 /* AppDelegate.swift */,
@@ -115,7 +118,7 @@
 				049B6E9B237596EE002BC965 /* Controllers */,
 				049B6E9C237596F9002BC965 /* Storyboards */,
 				04858EC4237576A600B3A9A3 /* Assets.xcassets */,
-				049B6E9D23759702002BC965 /* Supporting Files */,
+				049B6E9E2375A754002BC965 /* Grid.swift */,
 			);
 			path = GameOfLife;
 			sourceTree = "<group>";
@@ -153,14 +156,6 @@
 				04858EC6237576A600B3A9A3 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		049B6E9D23759702002BC965 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				04858EC9237576A600B3A9A3 /* Info.plist */,
-			);
-			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		1EE8218CEF49A71DF9B2135B /* Frameworks */ = {
@@ -354,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04858EBE237576A500B3A9A3 /* GameScene.swift in Sources */,
+				049B6E9F2375A754002BC965 /* Grid.swift in Sources */,
 				0417FB5323757D7E00B22435 /* Message.swift in Sources */,
 				04858EC0237576A500B3A9A3 /* GameViewController.swift in Sources */,
 				049B6E99237596B9002BC965 /* Player.swift in Sources */,
